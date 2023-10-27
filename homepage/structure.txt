@@ -1,1 +1,5 @@
 5 pages: homepage(costing) , myprofile, yourgoods vs compatitors goods, help, contacts
+design:
+- #B3001B - background627264
+- #627264 - header
+- #EED5AE - text font caveat
