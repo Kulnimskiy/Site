@@ -2,13 +2,13 @@
     width: 65%;
     height: 732px;
     background-image: url("design/Rectangle_1.png");
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
     margin-top: 10%;
     margin-bottom: 50px;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 550px;
-    padding-left: 60px;
+    padding-left: 5%;
 }
 .motto {
     width: 55%;
@@ -47,7 +47,7 @@
 .reference {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
 }
