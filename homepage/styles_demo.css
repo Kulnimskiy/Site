@@ -18,3 +18,11 @@ body {
 .info {
     font-weight: 600;
 }
+
+.items_boarder {
+    border-color: #000000;
+}
+
+.competitor_name {
+    font-size: larger;
+}

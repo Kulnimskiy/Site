@@ -40,7 +40,7 @@
         <div class="container-lg" style="margin-top: 2%;">
           <div class="row">
             <div class="col-5 blue-col d-flex flex-column justify-content-center">
-              <div class="card" style="width: 90%;">
+              <div class="card items_boarder" style="width: 90%;">
                 <div class="card-body">
                   <h2 class="card-title" id="company_name">Company BETA</h2>
                   <h6 class="card-subtitle mb-2 text-body-secondary" id="company_motto">The name that matters...</h6>
@@ -57,12 +57,11 @@
               </div>
             </div>
             <div class="col-7 blue-col d-flex flex-column justify-content-center">
-              <div class="card" style="width: 100%;">
+              <div class="card items_boarder" style="width: 100%;">
                 <div class="card-body">
                   <table class="table">
                     <thead>
                       <tr>
-                        <th scope="col">Competitor</th>
                         <th scope="col">Item</th>
                         <th scope="col">June</th>
                         <th scope="col">August</th>
@@ -71,8 +70,7 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row">Betanika</td>
-                        <td>Compressor</th>
+                        <th scope="row">Compressor</td>
                         <td>12000$</td>
                         <td>13252$</td>
                         <td>14470$</td>
@@ -91,18 +89,69 @@
                       </tr>
                     </tbody>
                   </table>
+                  <form>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-4">
+                          <button class="btn  btn-primary items_boarder" type="button" id="additem">Add items</button>
+                        </div>
+                        <div class="col-8">
+                          <span class="input-group mb-3">
+                            <button class="btn  btn-primary items_boarder"  type="button" id="button-addon1">Filter</button>
+                            <input type="text" class="form-control items_boarder"  placeholder="name of the item" aria-label="Example text with button addon" aria-describedby="button-addon1" autocomplete="off">
+                          </span>
+                        </div>
+                      </div>
+                    </div>     
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
       <div class="container-lg" style="margin-top: 2%;">
-        <div class="card" style="width: 100%;">
+        <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
           <div class="card-body">
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col">Competitor</th>
+                  <th scope="col" width="25%">Competitor</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">June</th>
+                  <th scope="col">August</th>
+                  <th scope="col">September</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <th rowspan="0" valign="middle"><span class="competitor_name">LLC Betanika</span></th>
+                    <td>Compressor</td>
+                    <td>12000$</td>
+                    <td>13252$</td>
+                    <td>14470$</td>
+                  </tr>
+                  <tr>
+                    <td>Volve Replacement kit</td>
+                    <td>12000$</td>
+                    <td>6150$</td>
+                    <td>7010$</td>
+                  </tr>
+                  <tr>
+                    <td>Gasckets</td>
+                    <td>43$</td>
+                    <td>50$</td>
+                    <td>52$</td>
+                </th>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" width="25%">Competitor</th>
                   <th scope="col">Item</th>
                   <th scope="col">June</th>
                   <th scope="col">August</th>
@@ -111,36 +160,34 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Betanika<td>
-                  <th scope="row">Compressor</th>
+                  <th rowspan="0" valign="middle"><span class="competitor_name">MaleBale Limited</span></th>
+                  <td>Compressor</td>
                   <td>12000$</td>
                   <td>13252$</td>
                   <td>14470$</td>
                 </tr>
                 <tr>
+                  <td>Volve Replacement kit</td>
                   <td>12000$</td>
-                  <th scope="row">Volve Replacement kit</th>
                   <td>6150$</td>
                   <td>7010$</td>
-                  <td>7150$</td>
                 </tr>
                 <tr>
-                  <td>12000$</td>
-                  <th scope="row">Gasckets</th>
+                  <td>Gasckets</td>
+                  <td>43$</td>
                   <td>50$</td>
                   <td>52$</td>
-                  <td>23$</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div class="card" style="width: 100%; margin-top: 1%;">
+        <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
           <div class="card-body">
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col">Competitor</th>
+                  <th scope="col" width="25%">Competitor</th>
                   <th scope="col">Item</th>
                   <th scope="col">June</th>
                   <th scope="col">August</th>
@@ -149,34 +196,34 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>12000$</td>
-                  <th scope="row">Compressor</th>
+                  <th rowspan="0" valign="middle"><span class="competitor_name">Betanika</span></th>
+                  <td>Compressor</td>
                   <td>12000$</td>
                   <td>13252$</td>
                   <td>14470$</td>
                 </tr>
                 <tr>
-                  <th scope="row">Volve Replacement kit</th>
+                  <td>Volve Replacement kit</td>
+                  <td>12000$</td>
                   <td>6150$</td>
                   <td>7010$</td>
-                  <td>7150$</td>
                 </tr>
                 <tr>
-                  <th scope="row">Gasckets</th>
+                  <td>Gasckets</td>
+                  <td>43$</td>
                   <td>50$</td>
                   <td>52$</td>
-                  <td>23$</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div class="card" style="width: 100%; margin-top: 1%;">
+        <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
           <div class="card-body">
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col">Competitor</th>
+                  <th scope="col" width="25%">Competitor</th>
                   <th scope="col">Item</th>
                   <th scope="col">June</th>
                   <th scope="col">August</th>
@@ -185,61 +232,28 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Compressor</th>
+                  <th rowspan="0" valign="middle" class="competitor_name"><span style="">Antonio Incorporated</span></th>
+                  <td>Compressor</td>
                   <td>12000$</td>
                   <td>13252$</td>
                   <td>14470$</td>
                 </tr>
                 <tr>
-                  <th scope="row">Volve Replacement kit</th>
-                  <td>6150$</td>
-                  <td>7010$</td>
-                  <td>7150$</td>
-                </tr>
-                <tr>
-                  <th scope="row">Gasckets</th>
-                  <td>50$</td>
-                  <td>52$</td>
-                  <td>23$</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>  
-        <div class="card" style="width: 100%; margin-top: 1%;">
-          <div class="card-body">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Competitor</th>
-                  <th scope="col">Item</th>
-                  <th scope="col">June</th>
-                  <th scope="col">August</th>
-                  <th scope="col">September</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Compressor</th>
+                  <td>Volve Replacement kit</td>
                   <td>12000$</td>
-                  <td>13252$</td>
-                  <td>14470$</td>
-                </tr>
-                <tr>
-                  <th scope="row">Volve Replacement kit</th>
                   <td>6150$</td>
                   <td>7010$</td>
-                  <td>7150$</td>
                 </tr>
                 <tr>
-                  <th scope="row">Gasckets</th>
+                  <td>Gasckets</td>
+                  <td>43$</td>
                   <td>50$</td>
                   <td>52$</td>
-                  <td>23$</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </div>      
+        </div>
+      </div>      
     </body>
 </html>
