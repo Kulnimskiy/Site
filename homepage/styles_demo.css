@@ -9,6 +9,7 @@ header {
 }
 body {
     background-color: #EED5AE;
+    min-width: 600px;
 }
 #company_name, #company_motto {
     text-align: center;
@@ -17,6 +18,7 @@ body {
 
 .info {
     font-weight: 600;
+    min-width: 600px;
 }
 
 .items_boarder {
@@ -28,6 +30,7 @@ body {
 }
 footer {
     background-color: #627264;
+    min-width: 600px;
 }
 .footer-text {
     margin-top: 1%;

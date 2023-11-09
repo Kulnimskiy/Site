@@ -15,6 +15,7 @@ body {
 }
 footer {
     background-color: #627264;
+    min-width: 350px;
 }
 .footer-text {
     color: white;

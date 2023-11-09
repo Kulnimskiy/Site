@@ -1,13 +1,15 @@
 .side_bar {
-    width: 20vw;
-    height: 60vh;
+    width: 25vw;
+    min-width: 100px;
+    min-height: 230px;
+    height: 80vh;
     background-image: url("design/Rectangle_1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 15%;
     margin-bottom: 50px;
-    padding-top: 200px;
-    padding-left: 5%;
+    padding-top: 15vh;
+    padding-left: 3vw;
 }
 .motto {
     width: 55%;
@@ -19,7 +21,7 @@
     background-repeat: no-repeat;
     margin-top: 10%;
     padding-top: 4%;
-    padding-left: 80px;
+    padding-left: 5vw;
 }
 .motto_first_line {
     color: #FFF;
@@ -59,8 +61,16 @@ body {
 
 .foot {
     background-image: url("design/Rectangle 3.png");
-    background-repeat:repeat-x;
+    background-repeat:repeat;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: fit-content;
+}
+
+.icons {
+    height: auto;
+    width: 10vw;
+    min-width: 25px;
+    max-width: 50px;
 }
