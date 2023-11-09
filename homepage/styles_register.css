@@ -10,3 +10,27 @@ header {
 body {
     background-color: #EED5AE;
 }
+footer {
+    background-color: #627264;
+    min-width: 1000px;
+}
+.footer-text {
+    color: white;
+    font-size: small;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+}
+.reference {
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+.items_boarder {
+    border-color: #627264;
+}
+.data-divider {
+    margin-top: 10px;
+}
