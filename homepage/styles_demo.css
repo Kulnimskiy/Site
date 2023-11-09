@@ -26,3 +26,21 @@ body {
 .competitor_name {
     font-size: larger;
 }
+footer {
+    background-color: #627264;
+}
+.footer-text {
+    margin-top: 1%;
+    color: white;
+    font-size: small;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+}
+.reference {
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}

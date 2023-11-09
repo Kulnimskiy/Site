@@ -10,3 +10,23 @@ header {
 body {
     background-color: #EED5AE;
 }
+.items_boarder {
+    border-color: #627264;
+}
+footer {
+    background-color: #627264;
+}
+.footer-text {
+    color: white;
+    font-size: small;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+}
+.reference {
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}

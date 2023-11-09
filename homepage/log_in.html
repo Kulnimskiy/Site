@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" >
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
@@ -37,6 +37,55 @@
               </nav>
         </header>
     <body>
-        <h1>Log in</h1>
+        <div class="container-lg">
+          <div class="row" style=" overflow: auto; height: 90vh">
+            <div class="col-3"></div>
+            <div class="col blue-col d-flex flex-column justify-content-center">
+              <div class="card items_boarder">
+                <div class="card-body">
+                  <p>
+                    Login:
+                    <div style="margin-top: -10px;">
+                      <input type="text" class="form-control items_boarder"  placeholder="guy" aria-label="Example text with button addon" aria-describedby="button-addon1" autocomplete="off" autofocus>
+                    </div>
+                  </p>
+                  <p>
+                    Password:
+                    <div style="margin-top: -10px; ">
+                      <input type="password" class="form-control items_boarder"  placeholder="qwerty" autocomplete="off">
+                      <div class="form-check" style="margin-top: 10px;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Remember me
+                        </label>
+                      </div>
+                    </div>
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6" id="login-btn">
+                        <form action="log_in.html"  style="text-align: left;">
+                          <button class="btn  btn-primary items_boarder" type="submit" id="additem">Log in</button>
+                        </form>
+                      </div>
+                      <div class="col-6" id="register-btn">
+                        <form action="register.html" style="text-align: right;">
+                          <button class="btn  btn-primary items_boarder" type="submit" id="additem">Register</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3"></div>
+          </div>
+        </div>
     </body>
+    <footer>
+      <div class="container-lg">
+        <span class="footer-text">For any additional help you can send your concerns to our manager &nbsp 
+          <a href="https://vk.com/s.kulminsky" class="reference">Kulminskiy Sergey</a></span>
+      </div>
+    </footer>
 </html>
