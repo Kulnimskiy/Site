@@ -11,6 +11,21 @@
     padding-top: 15vh;
     padding-left: 3vw;
 }
+a.links {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3vw;
+    font-style: normal;
+    font-weight: 400;
+}
+img.links {
+    height: auto;
+    width: 4vw;
+    min-width: 25px;
+}
+.links:hover {
+    color: #B3001B;
+}
 .motto {
     width: 55%;
     height: 50%;
@@ -38,17 +53,9 @@
     line-height: normal;
     padding-left: 8vw ;
 }
-.links {
-    text-decoration: none;
-    color: black;
-    font-size: 2.3vw;
-    font-style: normal;
-    font-weight: 400;
+.motto:hover {
+    background-image: url("design/Rectangle 2 darker.png");
 }
-.links:hover {
-    color: #B3001B;
-}
-
 .reference {
     text-decoration: none;
     color: black;
@@ -59,14 +66,12 @@
 .reference:hover {
     color: #B3001B;
 }
-
 body {
     background-image: linear-gradient(to right, #B3001B ,#B3001B, rgb(255, 155, 4));
     font-family: 'Caveat';
     font-size: 22px;
     height: 100%;
 }
-
 .foot {
     background-image: url("design/Rectangle 3.png");
     background-repeat:repeat;
@@ -74,10 +79,6 @@ body {
     bottom: 0;
     width: 100%;
     height: fit-content;
+    text-align: right;
 }
 
-.icons {
-    height: auto;
-    width: 4vw;
-    min-width: 25px;
-}
