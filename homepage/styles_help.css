@@ -32,6 +32,6 @@ footer {
     font-style: normal;
 }
 
-p[name="info"] {
+p[data-name="info"] {
     font-weight: 350;
 }
