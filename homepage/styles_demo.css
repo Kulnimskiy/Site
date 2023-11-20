@@ -27,6 +27,7 @@ body {
 
 .competitor_name {
     font-size: larger;
+    vertical-align: middle;
 }
 footer {
     background-color: #627264;
@@ -48,5 +49,6 @@ footer {
     font-style: normal;
 }
 div.card:hover {
-    background-color: #dbdbdb;
+    border-left-color: rgb(52, 52, 232);
+    border-left-width: 3px;
 }

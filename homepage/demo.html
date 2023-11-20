@@ -11,10 +11,11 @@
       <script src="index.js"></script>
       <title>Costing</title>
   </head>
-  <header>
+  <body>
+    <header>
       <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="design\logo1.png" id="logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="design\logo1.png" id="logo" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,8 +37,7 @@
             </div>
           </div>
         </nav>
-  </header>
-  <body>
+    </header>
       <div class="container-lg" style="margin-top: 2%;">
         <div class="row">
           <div class="col-5 blue-col d-flex flex-column justify-content-center">
@@ -60,7 +60,7 @@
           <div class="col-7 blue-col d-flex flex-column justify-content-center">
             <div class="card items_boarder" style="width: 100%; min-width: 450px;">
               <div class="card-body">
-                <table class="table" name="client_items">
+                <table class="table" id="client_items">
                   <thead>
                     <tr>
                       <th scope="col">Item</th>
@@ -71,7 +71,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">Compressor</td>
+                      <th scope="row">Compressor</th>
                       <td>12000$</td>
                       <td>13252$</td>
                       <td>14470$</td>
@@ -103,7 +103,6 @@
                         </span>
                       </div>
                     </div>
-                    
                   </div>     
                 </form>
               </div>
@@ -115,14 +114,14 @@
       <div class="card items_boarder" style="width: 100%;">
         <div class="card-body">
           <h4>Filter Result:</h4>
-          <div class="row" id="filter_results">
-            try the new filter!                     
+          <div class="row d-flex flex-row justify-content-center" id="filter_results">
+            try the new filter!   
           </div>
         </div>
       </div>
       <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
         <div class="card-body">
-          <table class="table" name="cmp_data">
+          <table class="table">
             <thead>
               <tr>
                 <th scope="col" width="25%">Competitor</th>
@@ -134,7 +133,7 @@
             </thead>
             <tbody>
                 <tr>
-                  <th rowspan="0" valign="middle"><span class="competitor_name">LLC Betanika</span></th>
+                  <th rowspan="0" class="competitor_name">LLC Betanika</th>
                   <td>Compressor</td>
                   <td>11000$</td>
                   <td>17352$</td>
@@ -158,10 +157,10 @@
       </div>
       <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
         <div class="card-body">
-          <table class="table" name="cmp_data">
+          <table class="table">
             <thead>
               <tr>
-                <th scope="col" width="25%">Competitor</th>
+                <th scope="col" style="width: 25%";>Competitor</th>
                 <th scope="col">Item</th>
                 <th scope="col">June</th>
                 <th scope="col">August</th>
@@ -170,7 +169,7 @@
             </thead>
             <tbody>
               <tr>
-                <th rowspan="0" valign="middle"><span class="competitor_name">MaleBale Limited</span></th>
+                <th rowspan="0" class="competitor_name">MaleBale Limited</th>
                 <td>Compressor</td>
                 <td>13452$</td>
                 <td>12342$</td>
@@ -194,10 +193,10 @@
       </div>
       <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
         <div class="card-body">
-          <table class="table" name="cmp_data">
+          <table class="table">
             <thead>
               <tr>
-                <th scope="col" width="25%">Competitor</th>
+                <th scope="col" style="width: 25%";>Competitor</th>
                 <th scope="col">Item</th>
                 <th scope="col">June</th>
                 <th scope="col">August</th>
@@ -206,7 +205,7 @@
             </thead>
             <tbody>
               <tr>
-                <th rowspan="0" valign="middle"><span class="competitor_name">Betanika</span></th>
+                <th rowspan="0" class="competitor_name">Betanika</th>
                 <td>Compressor</td>
                 <td>12000$</td>
                 <td>13252$</td>
@@ -230,10 +229,10 @@
       </div>
       <div class="card items_boarder" style="width: 100%; margin-top: 2%;">
         <div class="card-body">
-          <table class="table" name="cmp_data">
+          <table class="table">
             <thead>
               <tr>
-                <th scope="col" width="25%">Competitor</th>
+                <th scope="col" style="width: 25%";>Competitor</th>
                 <th scope="col">Item</th>
                 <th scope="col">June</th>
                 <th scope="col">August</th>
@@ -242,7 +241,7 @@
             </thead>
             <tbody>
               <tr>
-                <th rowspan="0" valign="middle" class="competitor_name"><span style="">Antonio Incorporated</span></th>
+                <th rowspan="0" class="competitor_name"><span>Antonio Incorporated</span></th>
                 <td>Compressor</td>
                 <td>12000$</td>
                 <td>13252$</td>
@@ -264,12 +263,12 @@
           </table>
         </div>
       </div>
-    </div>      
+    </div>    
+    <footer>
+      <div class="container-lg">
+        <span class="footer-text">For any additional help you can send your concerns to our manager &nbsp; 
+          <a href="https://vk.com/s.kulminsky" class="reference">Kulminskiy Sergey</a></span>
+      </div>
+    </footer>  
   </body>
-  <footer>
-    <div class="container-lg">
-      <span class="footer-text">For any additional help you can send your concerns to our manager &nbsp 
-        <a href="https://vk.com/s.kulminsky" class="reference">Kulminskiy Sergey</a></span>
-    </div>
-  </footer>
 </html>
