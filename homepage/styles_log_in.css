@@ -31,3 +31,7 @@ footer {
 .items_boarder {
     border-color: #627264;
 }
+.fields {
+    margin-top: 10px; 
+    margin-bottom: 0px;
+}

@@ -10,48 +10,50 @@
         <link href="styles_log_in.css" rel="stylesheet">
         <title>Costing</title>
     </head>
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html"><img src="design\logo1.png" id="logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Log in</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link header-text" href="register.html">Register</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link header-text" href="help.html">Help</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link header-text" href="demo.html"  >Demo</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
+     
     <body>
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="design\logo1.png" id="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Log in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-text" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-text" href="help.html">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-text" href="demo.html"  >Demo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
         <div class="container-lg">
           <div class="row" style=" height: 90vh; min-width: 300px; min-height: 300px;">
             <div class="col-3"></div>
             <div class="col blue-col d-flex flex-column justify-content-center">
               <div class="card items_boarder" style="height: 280px; min-width: 300px;">
                 <div class="card-body">
-                  <p>
+                  <p class="fields">
                     Login:
-                    <div style="margin-top: -10px;">
-                      <input type="text" class="form-control items_boarder"  placeholder="guy" aria-label="Example text with button addon" aria-describedby="button-addon1" autocomplete="off" autofocus>
-                    </div>
                   </p>
-                  <p>
+                    <div >
+                      <input type="text" class="form-control items_boarder"  placeholder="guy" aria-label="Example text with button addon" autocomplete="off" autofocus>
+                    </div>
+                  <p class="fields">
                     Password:
-                    <div style="margin-top: -10px; ">
+                  </p>
+                    <div >
                       <input type="password" class="form-control items_boarder"  placeholder="qwerty" autocomplete="off">
                       <div class="form-check" style="margin-top: 10px;">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -60,7 +62,7 @@
                         </label>
                       </div>
                     </div>
-                  </p>
+
                   <div class="container">
                     <div class="row">
                       <div class="col-6" id="login-btn">
@@ -70,7 +72,7 @@
                       </div>
                       <div class="col-6" id="register-btn">
                         <form action="register.html" style="text-align: right;">
-                          <button class="btn  btn-primary items_boarder" type="submit" id="additem">Register</button>
+                          <button class="btn  btn-primary items_boarder" type="submit">Register</button>
                         </form>
                       </div>
                     </div>
@@ -78,14 +80,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-3"></div>
-          </div>
+          <div class="col-3"></div>
         </div>
-    </body>
-    <footer>
-      <div class="container-lg">
-        <span class="footer-text">For any additional help you can send your concerns to our manager &nbsp 
-          <a href="https://vk.com/s.kulminsky" class="reference">Kulminskiy Sergey</a></span>
       </div>
-    </footer>
+      <footer>
+        <div class="container-lg">
+          <span class="footer-text">For any additional help you can send your concerns to our manager &nbsp; 
+            <a href="https://vk.com/s.kulminsky" class="reference">Kulminskiy Sergey</a></span>
+        </div>
+      </footer>
+    </body>
 </html>

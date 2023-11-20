@@ -52,3 +52,6 @@ div.card:hover {
     border-left-color: rgb(52, 52, 232);
     border-left-width: 3px;
 }
+.comp {
+    width: 25%;
+}

@@ -13,7 +13,10 @@ function add_items() {
     window.alert("the item has been added!");
 }
 
+
+let count_filter = 0;
 function filter_items() {
+    count_filter +=1;
     let word = document.getElementById("filter_parameter").value;
     console.log(word);
     let tables = document.getElementsByClassName("table");
@@ -36,16 +39,16 @@ function filter_items() {
 }
 
 function blink() {
-    let text_filter = document.querySelector('#filter_results');
-    if (text_filter === "try the new filter!")
+    let filter_text = document.querySelector('#filter_results');
+    if (count_filter == 0)
     {
-        if (text_filter.style.visibility == 'hidden')
+        if (filter_text.style.color == 'black')
         {
-            text_filter.style.visibility = 'visible';
+            filter_text.style.color = 'white';
         }
         else
         {
-            text_filter.style.visibility = 'hidden';
+            filter_text.style.color = 'black';
         }
     }
 }
